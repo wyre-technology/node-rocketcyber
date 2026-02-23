@@ -1,0 +1,37 @@
+import type { Incident } from '../../src/types/incidents.js';
+
+export const incidentsFixture: Incident[] = [
+  {
+    id: 5001,
+    title: 'Suspicious PowerShell Execution Detected',
+    description: 'Encoded PowerShell command detected on DESKTOP-ABC123',
+    remediation: 'Isolate endpoint and investigate process tree',
+    publishedAt: '2024-06-10T14:22:00Z',
+    createdAt: '2024-06-10T14:20:00Z',
+    updatedAt: '2024-06-10T16:00:00Z',
+    status: 'open',
+    accountId: 1001,
+    accountName: 'Acme Corp',
+    accountPath: '/acme-corp',
+    eventCount: 12,
+    affectedDevices: ['DESKTOP-ABC123'],
+    severity: 'high',
+  },
+  {
+    id: 5002,
+    title: 'Brute Force Login Attempt',
+    description: 'Multiple failed login attempts detected on SERVER-DC01',
+    remediation: 'Review account lockout policies and check for compromised credentials',
+    resolvedAt: '2024-06-08T10:00:00Z',
+    publishedAt: '2024-06-07T22:15:00Z',
+    createdAt: '2024-06-07T22:10:00Z',
+    updatedAt: '2024-06-08T10:00:00Z',
+    status: 'resolved',
+    accountId: 1001,
+    accountName: 'Acme Corp',
+    accountPath: '/acme-corp',
+    eventCount: 45,
+    affectedDevices: ['SERVER-DC01'],
+    severity: 'medium',
+  },
+];
