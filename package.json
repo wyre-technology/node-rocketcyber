@@ -1,6 +1,6 @@
 {
   "name": "@wyre-technology/node-rocketcyber",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -20,7 +20,12 @@
       }
     }
   },
-  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -32,7 +37,15 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["rocketcyber", "kaseya", "managed-soc", "msp", "api", "typescript", "cybersecurity"],
+  "keywords": [
+    "rocketcyber",
+    "kaseya",
+    "managed-soc",
+    "msp",
+    "api",
+    "typescript",
+    "cybersecurity"
+  ],
   "author": "Wyre Technology",
   "license": "Apache-2.0",
   "repository": {
