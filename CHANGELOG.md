@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wyre-technology/node-rocketcyber/compare/v1.0.0...v1.1.0) (2026-02-24)
+
+
+### Features
+
+* add EU region support ([7985f88](https://github.com/wyre-technology/node-rocketcyber/commit/7985f889b1ce3a22a18aa9d480828f505f882ec1))
+
 # 1.0.0 (2026-02-23)
 
 
