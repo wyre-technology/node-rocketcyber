@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wyre-technology/node-rocketcyber/compare/v1.1.0...v1.1.1) (2026-02-24)
+
+
+### Bug Fixes
+
+* **http:** read response body as text before JSON parse ([bf8fbfd](https://github.com/wyre-technology/node-rocketcyber/commit/bf8fbfda193bfdf8fbdc73669b43472f665ec4d7))
+
 # [1.1.0](https://github.com/wyre-technology/node-rocketcyber/compare/v1.0.0...v1.1.0) (2026-02-24)
 
 
