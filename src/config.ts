@@ -2,10 +2,11 @@
  * Configuration types and defaults for the RocketCyber client
  */
 
-export type RocketCyberRegion = 'us';
+export type RocketCyberRegion = 'us' | 'eu';
 
 export const REGION_URLS: Record<RocketCyberRegion, string> = {
   us: 'https://api-us.rocketcyber.com/v3',
+  eu: 'https://api-eu.rocketcyber.com/v3',
 };
 
 export interface RateLimitConfig {
@@ -58,7 +59,7 @@ export function resolveConfig(config: RocketCyberConfig): ResolvedConfig {
     const region = config.region ?? 'us';
     const regionUrl = REGION_URLS[region];
     if (!regionUrl) {
-      throw new Error(`Invalid region: ${region}. Valid regions are: us`);
+      throw new Error(`Invalid region: ${region}. Valid regions are: ${Object.keys(REGION_URLS).join(', ')}`);
     }
     baseUrl = regionUrl;
   }

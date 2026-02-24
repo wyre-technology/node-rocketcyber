@@ -14,9 +14,14 @@ describe('resolveConfig', () => {
     expect(config.baseUrl).toBe(REGION_URLS.us);
   });
 
-  it('should use explicit region', () => {
+  it('should use explicit us region', () => {
     const config = resolveConfig({ apiKey: 'test-key', region: 'us' });
     expect(config.baseUrl).toBe('https://api-us.rocketcyber.com/v3');
+  });
+
+  it('should use eu region', () => {
+    const config = resolveConfig({ apiKey: 'test-key', region: 'eu' });
+    expect(config.baseUrl).toBe('https://api-eu.rocketcyber.com/v3');
   });
 
   it('should use explicit baseUrl and strip trailing slash', () => {
@@ -42,7 +47,7 @@ describe('resolveConfig', () => {
 
   it('should throw for invalid region', () => {
     expect(() =>
-      resolveConfig({ apiKey: 'test-key', region: 'invalid' as 'us' })
+      resolveConfig({ apiKey: 'test-key', region: 'invalid' as any })
     ).toThrow('Invalid region');
   });
 });
