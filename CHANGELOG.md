@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/wyre-technology/node-rocketcyber/compare/v1.1.1...v1.1.2) (2026-07-18)
+
+
+### Bug Fixes
+
+* **tsconfig:** restore include/exclude globs ([#36](https://github.com/wyre-technology/node-rocketcyber/issues/36)) ([e574f9a](https://github.com/wyre-technology/node-rocketcyber/commit/e574f9a6b2e7cad070e8217e4783af8c949ca9ba))
+
 ## [1.1.1](https://github.com/wyre-technology/node-rocketcyber/compare/v1.1.0...v1.1.1) (2026-02-24)
 
 
