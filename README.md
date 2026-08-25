@@ -1,4 +1,4 @@
-# @wyre-technology/node-rocketcyber
+# @wyre-ai/node-rocketcyber
 
 Comprehensive, fully-typed Node.js/TypeScript library for the RocketCyber (Kaseya) Managed SOC API.
 
@@ -15,20 +15,20 @@ Comprehensive, fully-typed Node.js/TypeScript library for the RocketCyber (Kasey
 ## Installation
 
 ```bash
-npm install @wyre-technology/node-rocketcyber
+npm install @wyre-ai/node-rocketcyber
 ```
 
 This package is published to GitHub Packages. Add the following to your `.npmrc` file:
 
 ```
 # .npmrc
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 ```
 
 ## Quick Start
 
 ```typescript
-import { RocketCyberClient } from '@wyre-technology/node-rocketcyber';
+import { RocketCyberClient } from '@wyre-ai/node-rocketcyber';
 
 const client = new RocketCyberClient({
   apiKey: 'your-api-key',
@@ -188,7 +188,7 @@ import {
   RocketCyberNotFoundError,
   RocketCyberRateLimitError,
   RocketCyberServerError,
-} from '@wyre-technology/node-rocketcyber';
+} from '@wyre-ai/node-rocketcyber';
 
 try {
   const account = await client.account.get();
@@ -260,7 +260,7 @@ import type {
   // Common
   BaseListParams,
   PaginatedResponse,
-} from '@wyre-technology/node-rocketcyber';
+} from '@wyre-ai/node-rocketcyber';
 ```
 
 ## Rate Limit Status
@@ -279,4 +279,4 @@ console.log(`Current rate: ${status.rate} req/min`);
 
 ## Author
 
-[Wyre Technology](https://github.com/wyre-technology)
+[Wyre Technology](https://github.com/WYRE-AI)

@@ -1,4 +1,4 @@
-# Contributing to @wyre-technology/node-rocketcyber
+# Contributing to @wyre-ai/node-rocketcyber
 
 Thank you for your interest in contributing to the RocketCyber TypeScript SDK. This guide will help you get started.
 
@@ -12,7 +12,7 @@ Thank you for your interest in contributing to the RocketCyber TypeScript SDK. T
 1. Clone the repository:
 
 ```bash
-git clone git@github.com:wyre-technology/node-rocketcyber.git
+git clone git@github.com:WYRE-AI/node-rocketcyber.git
 cd node-rocketcyber
 ```
 
@@ -131,4 +131,4 @@ This project uses **vitest** as the test runner and **MSW** (Mock Service Worker
 
 ## Questions?
 
-Open an issue on [GitHub](https://github.com/wyre-technology/node-rocketcyber/issues).
+Open an issue on [GitHub](https://github.com/WYRE-AI/node-rocketcyber/issues).
