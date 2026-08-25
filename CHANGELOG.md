@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/WYRE-AI/node-rocketcyber/compare/v1.1.2...v1.1.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#56](https://github.com/WYRE-AI/node-rocketcyber/issues/56)) ([8cd0be4](https://github.com/WYRE-AI/node-rocketcyber/commit/8cd0be4560cdc4724b8aca2c5e1df5227b0ab1ed))
+
 ## [1.1.2](https://github.com/wyre-technology/node-rocketcyber/compare/v1.1.1...v1.1.2) (2026-07-18)
 
 
